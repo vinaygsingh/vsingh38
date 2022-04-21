@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+    "id": 1,
+    "contactName": "Smita",
+    "phoneNumber": "9999999999",
+    "email": "smita@gmail.com"
+    },
+    {
+    "id": 2,
+    "contactName": "Sia",
+    "phoneNumber": "9999999999",
+    "email": "sia@gmail.com"
+    },
+    {
+    "id": 3,
+    "contactName": "Shivansh",
+    "phoneNumber": "9999999999",
+    "email": "shivansh@gmail.com"
+    },
+    {
+    "id": 4,
+    "contactName": "Zara",
+    "phoneNumber": "9999999999",
+    "email": "zara@gmail.com"
+    }
+   
+   ],   
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

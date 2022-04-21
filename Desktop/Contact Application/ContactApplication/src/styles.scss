@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+body {
+    background-color: #f1f1f145 !important;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    color: #6A6A6A;
+    overflow-x: hidden;
+}
+
+.login-desk {
+    filter: drop-shadow(0 0 13.5px rgba(0, 0, 0, 0.09));
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.form-login-body .login-desk .detail-box .logo {
+    width: 300px;
+}
+
+.form-login-body .login-desk .detail-box .detailsh {
+    text-align: center;
+}
+
+.form-login-body .login-desk .detail-box .help {
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.form-login-body .login-desk .detail-box {
+    background-color: #FFF;
+    padding: 20px;
+}
+.form-login-body .login-desk .loginform {
+    background-color: #4c56c0;
+    // text-align: center;
+    color: #FFF;
+    padding: 50px;
+}
+
+.form-login-body .login-desk .loginform h4 {
+    color: #FFF;
+    font-size: 1.3rem;
+}
+
+.form-login-body .form-row label {
+    font-size: .85rem;
+}
+
+.loginform p {
+    font-size: .8rem;
+    margin-bottom: 30px;
+}
+
+.forget a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.form-login-body .login-det .btn-danger {
+    width: 100%;
+    border-radius: 0px;
+    background-color: #fa607e;
+    border-radius: 50px;
+}
+
+.bgregisterform {
+    background-color: #4c56c0;
+    // text-align: center;
+    color: #FFF;
+    padding: 5px 5px;
+}
